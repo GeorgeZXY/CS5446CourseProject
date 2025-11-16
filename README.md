@@ -1,16 +1,24 @@
 # NUS CS5446 Coursework Project AY25/26 semester 1
-This repository is the course work projet for NUS CS5446 AI planning and decision making
+This repository is the course work projet for NUS CS5446 AI planning and decision making,
 Project Team 27. 
+
 Impelementation of RL environment and models built with gymnasium and stable-baselines3
+
 Main files(in src):
+
 mediator.py - game mecahnisms
+
 rl_environment.py - reinfocement learning environment
+
 train_dqn.py - training and evaluation of DQN model on the envrionment
+
 train_ppo.py - training and evaluation of PPO model on the envrionment
+
 
 # Installation
 Install from requirements.txt
 `pip install -r requirements.txt`
+
 
 # Running RL
 * run `src\train_dqn.py` or `src\train_ppo.py` with --mode "train" to train the respective algorithm. 
