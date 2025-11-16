@@ -4,15 +4,13 @@ Project Team 27.
 
 Implementation of RL for the Mini Metro Game
 
-Main files(in src folder):
+Main files (in src folder):
 
-mediator.py - game mechanisms
+* rl_environment.py - reinforcement learning environment
 
-rl_environment.py - reinforcement learning environment
+* train_dqn.py - training and evaluation script of DQN model on the environment
 
-train_dqn.py - training and evaluation script of DQN model on the environment
-
-train_ppo.py - training and evaluation script of PPO model on the environment
+* train_ppo.py - training and evaluation script of PPO model on the environment
 
 
 # Installation
