@@ -1,0 +1,22 @@
+# Core game dependencies
+numpy>=1.26.0  # Updated for Python 3.12+ compatibility (distutils removed)
+pygame>=2.5.0
+shapely>=2.0.1
+shortuuid>=1.0.11
+
+# RL Environment dependencies  
+gymnasium>=0.29.1
+stable-baselines3[extra]>=2.1.0
+
+# Deep Learning framework
+torch>=2.0.0
+
+# Training and evaluation utilities
+tensorboard>=2.11.0
+matplotlib>=3.6.0
+pandas>=1.5.0
+scipy>=1.10.0
+
+# Optional but recommended
+tqdm>=4.64.0
+opencv-python>=4.7.0
