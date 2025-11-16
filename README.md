@@ -13,10 +13,10 @@ Install from requirements.txt
 `pip install -r requirements.txt`
 
 # Running RL
-run `src\train_dqn.py` or `src\train_ppo.py` with --mode "train" to train the respective algorithm. 
+*run `src\train_dqn.py` or `src\train_ppo.py` with --mode "train" to train the respective algorithm. 
 trained model will be saved in "models" folder
 
-run `src\train_dqn.py` or `src\train_ppo.py` with --mode "eval" to evaluate the trained models
+*run `src\train_dqn.py` or `src\train_ppo.py` with --mode "eval" to evaluate the trained models
 supply --model paramter with the relative path to the model file
 use --render parameter with "human" to render the game graphics for visualization
 
