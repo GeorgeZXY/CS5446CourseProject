@@ -2,17 +2,17 @@
 This repository is the course work projet for NUS CS5446 AI planning and decision making,
 Project Team 27. 
 
-Impelementation of RL environment and models built with gymnasium and stable-baselines3
+Implementation of RL environment and models built with gymnasium and stable-baselines3
 
 Main files(in src):
 
-mediator.py - game mecahnisms
+mediator.py - game mechanisms
 
-rl_environment.py - reinfocement learning environment
+rl_environment.py - reinforcement learning environment
 
-train_dqn.py - training and evaluation of DQN model on the envrionment
+train_dqn.py - training and evaluation of DQN model on the environment
 
-train_ppo.py - training and evaluation of PPO model on the envrionment
+train_ppo.py - training and evaluation of PPO model on the environment
 
 
 # Installation
