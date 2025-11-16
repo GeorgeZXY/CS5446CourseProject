@@ -1,0 +1,26 @@
+Mini Metro PPO Training Summary:
+Algorithm: Proximal Policy Optimization (PPO)
+Timestamp: 20251116_1843
+Configuration: default
+Total Timesteps: 100000
+Learning Rate: 0.0003
+Parallel Environments: 4
+Environment: 5 stations, 2 paths, 2 metros
+Action Space: 23 actions
+State Space: 58 features
+
+PPO Hyperparameters:
+  n_steps: 2048
+  batch_size: 64
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  clip_range_vf: None
+  ent_coef: 0.01
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  use_sde: False
+  sde_sample_freq: -1
+  target_kl: None
+Final Model: models/ppo_default_20251116_1843/ppo_default_100000steps_final.zip

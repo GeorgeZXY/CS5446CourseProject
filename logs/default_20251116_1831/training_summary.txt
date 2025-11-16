@@ -1,0 +1,13 @@
+Mini Metro DQN Training Summary
+================================
+
+Timestamp: 20251116_1831
+Configuration: default
+Total Timesteps: 10000
+Learning Rate: 0.0001
+Environment: 5 stations, 2 paths, 2 metros
+Action Space: 23 actions
+State Space: 58 features
+Final Model: models/default_20251116_1831/dqn_default_10000steps_final.zip
+Log Directory: logs/default_20251116_1831/
+TensorBoard: tensorboard --logdir tensorboard_logs/default_20251116_1831/
